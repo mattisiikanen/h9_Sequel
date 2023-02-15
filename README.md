@@ -82,7 +82,7 @@ Asennuksen jälkeen tuli vielä tehdä CRUD testi tietokantaan. Minulla ei ollut
 Aloitin kirjautumalla sisälle PostgreSQL:n komennolla ```psql```, päästyäni sisään loin ensimmäisenä taulukon komennolla ```CREATE TABLE oppilaat (id SERIAL PRIMARY KEY, nimi VARCHAR(200));```. Luonnin jälkeen varmistin vielä komennolla ```\d```, että taulukko oli luotu oikein:</br>
 ![Kuva6](https://user-images.githubusercontent.com/122887740/218834580-a46a0b52-933f-4d2e-b032-6d9e6819735f.png)
 
-Seuraavana vuorossa oli syöttää tietoa taulukkoon komennolla ```INSERT INTO oppilaat(nimi) VALUES ('Masa');```, päätin vielä rohkeasti yrittää lisätä pari muuta käyttäjää: ```Keijo``` ja ```Kustaa```. Tietojen lisäyksen jälkeen päätin vielä tarkistaa taulukon tiedot komennolla ```SELECT * FROM oppillaat;```: </br>
+Seuraavana vuorossa oli syöttää tietoa taulukkoon komennolla ```INSERT INTO oppilaat(nimi) VALUES ('Masa');```, päätin vielä rohkeasti yrittää lisätä pari muuta käyttäjää: ```Keijo``` ja ```Kustaa```. Tietojen lisäyksen jälkeen tuli vielä tarkistaa taulukon tiedot komennolla ```SELECT * FROM oppilaat;```: </br>
 
 ![Kuva7](https://user-images.githubusercontent.com/122887740/218835843-f7319558-4714-4841-9f81-63c6a16317bc.png) </br>
 
