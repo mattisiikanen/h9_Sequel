@@ -90,7 +90,7 @@ Nyt kun taulukko oli luotu onnistuneesti, oli aika testata muokata jonkun tauluk
 
 ![Kuva8](https://user-images.githubusercontent.com/122887740/218836599-0c64b24c-058b-4648-bf3e-bd9c92506b9e.png) </br>
 
-Lopuksi vielä tuli testata tiedon poisto taulukosta. Otin uhriksi tällä erää Keijon ja päätin hänen oppilasuransa komennolla: ```DELETE FROM oppilaat WHERE nimi='Keijo';```: </br>
+Lopuksi tuli vielä testata tiedon poisto taulukosta. Otin uhriksi tällä erää Keijon ja päätin hänen oppilasuransa komennolla: ```DELETE FROM oppilaat WHERE nimi='Keijo';```: </br>
 ![Kuva9](https://user-images.githubusercontent.com/122887740/218837027-f1038b44-7e32-4c8c-a0c8-86dbbd323ec7.png) </br>
 
 Oli aika pakata työkalut ja lopettaa SQL istunto komennolla: ```exit```
@@ -101,14 +101,14 @@ Klo 21:25</br>
 Viimeisenä harjoituksena oli asentaa vielä MariaDB koneelle. Käytin jälleen opettajamme Teron luomia ohjeita asennusta varten. Ennen asennusta varmistin kuitenkin virtuaalikoneen levytilan komennolla ```df -h```: </br>
 ![Kuva10](https://user-images.githubusercontent.com/122887740/218837800-1c0a17df-c304-49b1-84ce-715aeac9c6f1.png)</br>
 
-Tein tarkistuksen, koska eräällä oppilaalla oli loppunut tila omasta virtuaalikoneestaan ja halusin välttää omalla koneellani vastaavan tilanteen. Nyt kun tilaa kuitenkin oli ihan riittävästi, etenin asennus vaiheeseen.
+Tein tarkistuksen, koska eräällä oppilaalla oli loppunut tila omasta virtuaalikoneestaan ja halusin välttää omalla koneellani vastaavan tilanteen. Nyt kun tilaa kuitenkin oli ihan riittävästi, etenin asennusvaiheeseen.
 
-Ohjeen mukaan palomuuriin pitäisi ennen asennusta sallia portti 22 TCP-protokollalle. Tämä oli jo kuitenkin tehty jo edellisviikon tehtävissä, joten annoin asian olla.
+Ohjeen mukaan palomuurissa pitäisi ennen asennusta sallia portti 22 TCP-protokollalle. Tämä oli jo kuitenkin tehty jo edellisviikon tehtävissä, joten annoin asian olla.
 
 
-Hyppäsin myös yli repositorioiden päivityksen, koska tein sen jo edellisissä harjoituksissa ja siirryin suoraan asentamaan MariaDB:tä komennolla: ```sudo apt-get -y install mariadb-client mariadb-server```. Asennus onnistui hyvin ja seuraavaksi oli tarkoitus aloittaa ohjelman konfigurointi komennolla: ```sudo mysql_secure_installation``` </br>
+Hyppäsin myös yli repositorioiden päivityksen, koska tein sen jo edellisissä harjoituksissa, joten siirryin suoraan asentamaan MariaDB:tä komennolla: ```sudo apt-get -y install mariadb-client mariadb-server```. Asennus onnistui hyvin ja seuraavaksi oli tarkoitus aloittaa ohjelman konfigurointi komennolla: ```sudo mysql_secure_installation``` </br>
 ![Kuva11](https://user-images.githubusercontent.com/122887740/218839433-614b30f1-4fef-4c9b-95ad-cb7d02fda466.png) </br>
-Ohjeissa ei ollut mainintaa kyseisestä kohdasta, tarkistin asiaa MariaDB:n omasta wikistä, jossa sen mainittiin olevan hyvä olla päällä.
+Ohjeissa ei ollut mainintaa kyseisestä kohdasta, tarkistin asian varmuuden vuoksi MariaDB:n omasta wikistä, jossa sen mainittiin olevan hyvä olla päällä.
 
 
 Loput kohdista olivatkin Teron ohjeissa ja seurasinkin niitä: </br>
@@ -121,14 +121,14 @@ Seuraavaksi olikin luvassa käyttäjän luonti ja konfigurointi: </br>
 Luonti ja konfigurointi onnistuivat hyvin.
 
 
-Nyt oli luvassa kantaan kirjautuminen juuri luodulla tunnuksella sekä oli aika siirtyä testaamaan CRUDia MariaDB:n SQL:ssä.
+Nyt oli luvassa kantaan kirjautuminen juuri luodulla tunnuksella, sekä oli aika siirtyä testaamaan CRUDia MariaDB:n SQL:ssä.
 
 
 Alussa loin uuden taulukon:</br>
 ![Kuva14](https://user-images.githubusercontent.com/122887740/218844923-e4bd2931-62c2-4949-b036-23a0b38dbb62.png) </br>
 
 
-Taulukon jälkeen lisäsin sinne kuvitteellisia asioita ja hintoja ja luin taulukon tiedot: </br>
+Taulukon jälkeen lisäsin sinne kuvitteellisia asioita ja hintoja, sekä luin taulukon tiedot: </br>
 ![Kuva15](https://user-images.githubusercontent.com/122887740/218846280-ca002dff-a053-48fa-9c77-989af897fcb2.png) </br>
 
 
@@ -145,7 +145,7 @@ Testit olivat vihdoin ohitse ja onnistuneita. Nyt oli aika lopetella tältä er�
 
 
 ## Lopetus
-Lopetin tehtävien teon klo 21:57. Kyseinen tehtävä avasi hyvin tietokantoja sekä SQL-kielen käsittelyä. Töihin meni tällä erää n. 1,5h.
+Lopetin tehtävien teon klo 21:57. Kyseinen tehtävä avasi hyvin tietokantoja sekä SQL-kielen käsittelyä. Töihin meni tällä erää n. 2h.
 
 ## Lähteet:
 
@@ -160,5 +160,5 @@ Lopetin tehtävien teon klo 21:57. Kyseinen tehtävä avasi hyvin tietokantoja s
 
 - Stack overflow, Postgres locale error (https://stackoverflow.com/questions/17712700/postgres-locale-error)
 
-- MariaDB.com, Authentication Plugin - Unix Sockethttps://mariadb.com/kb/en/authentication-plugin-unix-socket/
+- MariaDB.com, Authentication Plugin - Unix Socket (https://mariadb.com/kb/en/authentication-plugin-unix-socket/)
 
