@@ -46,7 +46,7 @@ Yhdistin Linoden palvelimeen komennolla ```ssh matti@143.42.18.59``` ja aloitin 
 ![Kuva1](https://user-images.githubusercontent.com/122887740/218827958-dab472b9-5fb2-43e3-addf-5a450018e845.png)
 
 
-Asennuksen jälkeen jälkeen piti vielä käynnistää sudona itse PostgreSQL käyttäen komentoa ```sudo systemctl start postgresql``` ja varmistin vielä palvelun käynnissä olon komennolla ```systemctl status postgresql.service```:</br>
+Asennuksen jälkeen jälkeen piti vielä käynnistää sudona itse PostgreSQL käyttäen komentoa ```sudo systemctl start postgresql``` sekä varmistin vielä palvelun käynnissä olon komennolla ```systemctl status postgresql.service```:</br>
 ![Kuva2](https://user-images.githubusercontent.com/122887740/218828533-6d6cefb2-8895-40e0-9a4e-1903c5fd1ea1.png)
 
 
