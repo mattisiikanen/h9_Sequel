@@ -71,7 +71,7 @@ Toimenpiteiden jälkeen kirjauduin sessiosta ulos ja uudelleen sisälle nähdäk
 ![Kuva5](https://user-images.githubusercontent.com/122887740/218832804-ee69e44d-7d01-479d-bfd9-a7e509e05135.png)
 
 
-Kyllä sillä tekemilläni toimenpiteillä olevan vaikutusta, vaikkakin se oli jo virheistä huolimatta luonut tietokannan.
+Tekemilläni toimenpiteillä näytti olevan vaikutusta, vaikkakin se oli jo virheistä huolimatta luonut tietokannan.
 
 
 ## b) Crud. Kokeile CRUD (create, read, update, delete) kirjoittamalla SQL-käsin
