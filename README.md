@@ -52,7 +52,7 @@ Asennuksen jälkeen jälkeen piti vielä käynnistää sudona itse PostgreSQL k�
 
 Seuraavaksi vuorossa oli vielä luoda PostgreSQL:ään käyttäjä ja tietokanta, koitin ensimmäisenä komentoa ```sudo -u postgres createdb matti```: </br>
 ![Kuva3](https://user-images.githubusercontent.com/122887740/218831965-05bf163a-8e2b-43a3-8d90-ab485aaf5de2.png)</br>
-Kappas jotain kieliasetuksia puuttuu. Tästä hätkähtyneenä päätin Googlettaa tilanteen ja päädyin Stack overflow:n sivuille artikkeliin Postgres locale error.
+Kappas jotain kieliasetuksia puuttuu. Tästä hätkähtyneenä päätin Googlettaa ongelmaa ja päädyin Stack overflow:n sivuille artikkeliin Postgres locale error.
 Forumin ohjeita noudattamalla pääsin eteenpäin ja ajoinkin seuraavia komentoja:</br>
 
 
